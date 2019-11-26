@@ -1,0 +1,16 @@
+#teal{
+    background-color:#4aaaa5;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    float: right;
+}
+
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
+
