@@ -1,16 +1,56 @@
-#teal{
+#NameProperty{
     background-color:#4aaaa5;
-    margin: 0;
-    padding: 0;
+    margin-left: 50px;
+    margin-right: 400px;
+    padding: 3px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
 }
 
-a{
-    float: right;
+#LinkProperty{
+    margin:20px;
 }
 
-.clearfix::after{
-content: "";
-display: block;
-clear: both;
+a:link {
+    text-decoration: none;
 }
 
+#MainPage{
+    width:960px;
+    margin: 50px 50px 50px 50px;
+    padding: 0px 20px 20px 20px;
+    background-color: #ffffff;
+    border:1px;
+    border-style: solid;
+    border-color:#4aaaa5;
+}
+
+#header{
+    background-color: #ffffff;
+    border:3px solid #cccccc;
+}
+
+#footproperty{
+    background-color: #666666;
+    border:50px;
+    text-align: center;
+}
+
+#paragraph{
+    margin: 10px 10px 10px 40px;
+
+}
+
+#heading{
+    color:#4aaaa5;
+}
+
+#backgroundfon{
+    background-color:#d3d3d3;
+}
+
+#image{
+    height: 320px;
+    width: 300px;
+}
