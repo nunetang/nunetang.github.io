@@ -47,13 +47,12 @@ a:link {
 }
 
 #image{
-    height: 320px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 
 .imageNune{
     position:absolute;
-    
 }
 
 .text{
@@ -64,52 +63,43 @@ a:link {
     font-size: 25px;
 }
 
-.box-1{
+.box{
     position:absolute;
-    left:720px;
+    top: 100px;
+}
 
+.box-1{
+    left:300px;
+    top: 190px;
 }
 
 .box-2{
-    position:absolute;
-    top:100px;
-
+    left: 800px;
 }
 
 .box-3{
-    position:absolute;
-    left:400px;
-    bottom:140px
+    left:520px;
+    top: 190px;
 }
 
 .fig{
-    position:relative;
+    position: absolute;
     height:50px;
+    width: 180px;
     background-color:turquoise;
     color:white;
     font-size: 20px;
     padding: 20px 0px 0px 20px;
-
+    top: 110px;
+    left: -40px;
 }
 
-.fig1{
-    width:300px;
-    right:70px;
-    bottom:70px;
-    left:-25px;
+.fig-2
+{
+    top: 310px;
+    left: 39px;
 }
-.fig2{
-    width:280px;
-    right:60px;
-    bottom:50px;
-    left:-40px;
-}
-.fig3{
-    width:280px;
-    right:60px;
-    bottom:50px;
-    left:-40px;
-}
+
 #contactinfo{
     margin:0px 0px 20px 0px;
     width:600px;
