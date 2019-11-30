@@ -82,41 +82,33 @@ a:link {
     bottom:140px
 }
 
-.fig1{
+.fig{
     position:relative;
     height:50px;
-    width:300px;
     background-color:turquoise;
     color:white;
+    font-size: 20px;
+    padding: 20px 0px 0px 20px;
+
+}
+
+.fig1{
+    width:300px;
     right:70px;
     bottom:70px;
     left:-25px;
-    font-size: 20px;
-    padding: 20px 0px 0px 20px;
 }
 .fig2{
-    position:relative;
-    height:50px;
     width:280px;
-    background-color:turquoise;
-    color:white;
     right:60px;
     bottom:50px;
     left:-40px;
-    font-size: 20px;
-    padding: 20px 0px 0px 20px;
 }
 .fig3{
-    position:relative;
-    height:50px;
     width:280px;
-    background-color:turquoise;
-    color:white;
     right:60px;
     bottom:50px;
     left:-40px;
-    font-size: 20px;
-    padding: 20px 0px 0px 20px;
 }
 #contactinfo{
     margin:0px 0px 20px 0px;
