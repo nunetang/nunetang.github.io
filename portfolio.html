@@ -5,38 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
-    <div id="backgroundfon">
-
-        <div id="header">
-                <a id="NameProperty">Nune Tangamyan</a>
-                <a id="LinkProperty" href="index.html">About</a>
-                <a id="LinkProperty" href="portfolio.html">Portfolio</a>
-                <a id="LinkProperty" href="contact.html">Contact</a>
-        </div>
-
-         <div id="MainPage">
-            <h1 id="heading">Portfolio</h1>
-            <hr></hr>
-            <div class= "box box-1">
-                <img id="image" src="assets/images/TicTac.png" alt="TicTac"/>
-                <figure class="fig">Favorite Board Game</figure>
-            </div>
-            <section clas="box box-2">
-                <img id="image" src="assets/images/HungryDolls.png" alt="Hungry Dolls"/>
-                <figure class="fig fig-2">My Game on Android</figure>
-            </div>
-            <div class="box box-3">
-                <img id="image" src="assets/images/HungryDolls1.png" alt="HungryDolls"/>
-                <figure class="fig">"Hungry Dolls"-Tic Tac Toe?</figure>
+<body id="bg-img">
+        <div class="container-fluid bg-white">
+            <div class="row">
+                    <div class="col-lg-2 col-md-0 col-sm-0"></div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 mt-3">
+                        <h1 class="large-fontsize bg-info text-white">Nune Tangamyan</h1>
+                    </div>
+                    <div class="col-lg-2 col-md-0 col-sm-0"></div>
+                    <a href="index.html" class="nav-link">About Me</a>
+                    <a href="#" class="nav-link">|</a>
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    <a href="#" class="nav-link">|</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
             </div>
         </div>
-        <footer id="footproperty">Copyright &copy;</footer>
-    </div>
     
-</body>
+        <!--Portfolio-->
+        <div id="Portfolio">
+            <div class="container mt-5">
+                    <span class="large-fontsize bg-info text-white">Portfolio</span><hr class="bg-info">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card bg-white">
+                            <img src="assets/images/TicTac.png" alt="TicTac" width="200" height="80" class="img-fluid m-auto py-3">
+                            <h3 class="text-center text-white figure">My Favorite Board Game</h3>
+                        </div>
 
+                    </div>
+                    <div class="col-lg-6">
+                            <div class="card bg-white">
+                                <img src="assets/images/HungryDolls.png" alt="HungryDolls" width="200" height="80" class="img-fluid m-auto py-3">
+                                <h3 class="text-center text-white figure">My Game on Android</h3>
+                            </div>
+    
+                    </div>
+                    <div class="col-lg-6 mt-3">
+                            <div class="card bg-white">
+                                <img src="assets/images/HungryDolls1.png" alt="Dolls" width="200" height="80" class="img-fluid m-auto py-3">
+                                <h3 class="text-center text-white figure">Not a Tic Tac Toe Game</h3>
+                            </div>
+    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--footer-->
+        <div class="footer container-fluid bg-secondary">
+                <div class="row">
+                    <div class="col">
+                        <div class="container">
+                                <p class="text-white pt-3 text-center">Website Designed by N.T. in 2019-20</p>
+    
+                        </div>
+                        
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+
+
+    
+    
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        
+</body>
+    
 </html>

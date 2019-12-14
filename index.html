@@ -4,35 +4,99 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Index</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <title>Main Page</title>
     </head>
-    <body> 
-    <div id="backgroundfon">
-        <div id="header">
-                <a id="NameProperty">Nune Tangamyan</a>
-                <a id="LinkProperty" href="index.html">About</a>
-                <a id="LinkProperty" href="portfolio.html">Portfolio</a>
-                <a id="LinkProperty" href="contact.html">Contact</a>
-        </div>   
-        <div id="MainPage">
-            <h1 id="heading">About Me</h1>
-            <hr></hr>
-            <div>
-                <img class="imageNune" src="assets/images/portfolio-about-me.jpg" alt="Nune Tangamyan">
-            </div>
-            <div class="text">
-                <p>Hi, Nune here and this is my personal page where I share about the projects that I am working on.   
-                I am very excited to finaly start this journey at University of Washington Coding
-                BootCamp. This is my very first website project and I have already learned a lot!
-                Looking forward to turning this website into a more fun and interactive site with more content
-                and fancy features.
-                This BootCamp gets me one step closer to my dream of becoming a full stack developer. 
-                </p>
+    <body id="bg-img">
+        <!--Navbar-->
+        <div class="container-fluid bg-white">
+            <div class="row">
+                    <div class="col-lg-2 col-md-0 col-sm-0"></div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 mt-3">
+                        <h1 class="large-fontsize bg-info text-white">Nune Tangamyan</h1>
+                    </div>
+                    <div class="col-lg-2 col-md-0 col-sm-0"></div>
+                    <a href="index.html" class="nav-link">About Me</a>
+                    <a href="#" class="nav-link">|</a>
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    <a href="#" class="nav-link">|</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
             </div>
         </div>
-        <footer id="footproperty">Copyright &copy;</footer>
-    </div>
+
+        <!--About Me-->
+        <div id="About">
+            <!--horisontal row-->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col">
+                        <span class="large-fontsize bg-info text-white">About Me</span><hr class="bg-info">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="AboutData">
+                            <div class="card bg-white">
+                                <div class="card-title my-5">
+                                    <div class="media">
+                                        <img src="assets/images/portfolio-about-me.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block" alt="Nune">
+                                        <div class="media-body">
+                                            <h3 class="display-4 ml-5">I'm Nune Tangamyan</h3>
+                                            <p class="text-muted ml-5">UW Coding BootCamp Student</p>
+                                            <div class="container mt-5">
+                                                <p class="lead text-justify">Hi, Nune here and this is my personal page where I share about the projects that I am working on.   
+                                                    I am very excited to finaly start this journey at University of Washington Coding
+                                                    BootCamp. This is my very first website project and I have already learned a lot!
+                                                    Looking forward to turning this website into a more fun and interactive site with more content
+                                                    and fancy features.
+                                                    This BootCamp gets me one step closer to my dream of becoming a full stack developer.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--footer-->
+        <div class="footer container-fluid bg-secondary">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                            <p class="text-white pt-3 text-center">Website Designed by N.T. in 2019-20</p>
+
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        
     </body>
     
 </html>

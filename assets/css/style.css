@@ -1,110 +1,40 @@
-#NameProperty{
-    background-color:#4aaaa5;
-    margin-left: 50px;
-    margin-right: 400px;
-    padding: 3px;
-    font-size: 35px;
-    color: #ffffff;
-    font-family:'Georgia', Times, 'Times New Roman', serif;
+body{
+    background: #CCC;
 }
 
-#LinkProperty{
-    margin:20px;
+#bg-img{
+    background:url("../images/background-portfolio.jpg");
+    background-size: 100%;
+    background-repeat: no repeat;
+    min-height: 300px;
 }
 
-a:link {
-    text-decoration: none;
+.footer{
+    position:fixed;
+    bottom:0;
 }
 
-#MainPage{
-    width:960px;
-    height: 500px;
-    margin: 50px 50px 50px 50px;
-    padding: 0px 20px 20px 20px;
-    background-color: #ffffff;
-    border:1px;
-    border-style: solid;
-    border-color:#4aaaa5;
+.large-fontsize {
+    font-size: 200% !important;
 }
 
-#header{
-    background-color: #ffffff;
-    border:3px solid #cccccc;
+.buttons{
+    margin:0 120px 0 0;
 }
 
-#footproperty{
-    background-color: #666666;
-    border:50px;
-    text-align: center;
+.figure{
+    border:thick;
+    border:3px;
+    background-color:teal;
+    bottom:0;
 }
 
-#heading{
-    color:#4aaaa5;
+a{
+    color: grey;
+    margin: 15px 0 15px 0;
 }
 
-#backgroundfon{
-    background-color:#d3d3d3;
-}
-
-#image{
-    height: 200px;
-    width: 200px;
-}
-
-.imageNune{
-    position:absolute;
-}
-
-.text{
-    position:absolute;
-    left: 250px;
-    right: 400px;
-    top: 175px;
-    font-size: 25px;
-}
-
-.box{
-    position:absolute;
-    top: 100px;
-}
-
-.box-1{
-    left:300px;
-    top: 190px;
-}
-
-.box-2{
-    left: 800px;
-}
-
-.box-3{
-    left:520px;
-    top: 190px;
-}
-
-.fig{
-    position: absolute;
-    height:50px;
-    width: 180px;
-    background-color:turquoise;
-    color:white;
-    font-size: 20px;
-    padding: 20px 0px 0px 20px;
-    top: 110px;
-    left: -40px;
-}
-
-.fig-2
-{
-    top: 310px;
-    left: 39px;
-}
-
-#contactinfo{
-    margin:0px 0px 20px 0px;
-    width:600px;
-}
-#knopka{
-    background-color: turquoise;
-    color:white;
+.marginheader{
+    margin: 15px;
+    border-style: none;
 }
