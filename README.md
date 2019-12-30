@@ -1,4 +1,4 @@
-#Responsive Portfolio Project using Bootstrap
+# Responsive Portfolio Project using Bootstrap
 
 This project is about creating a website with 3 pages. Each of the pages should contain the following elements:
 
